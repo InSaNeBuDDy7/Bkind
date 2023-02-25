@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url('https://images.pexels.com/photos/6994982/pexels-photo-6994982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">
+    <form action="/Donation.html" method="post">
+        <label for="UserID"></label>
+        <input type="number" name="UserID">
+        <label for="amount"></label>
+        <input type="text" name="amount">
+        <label for="currency"></label>
+        <input type="text" name="currency">
+        <label for="receipt"></label>
+        <input type="text" name="receipt">
+        <label for="notes"></label>
+        <input type="text" name="notes">
+        <input type="submit">
+    </form>  
+
+    
+</body>
+<script>
+    const UserID = document.getElementsByName('UserID')
+    console.log(UserID)
+</script>
+</html>
